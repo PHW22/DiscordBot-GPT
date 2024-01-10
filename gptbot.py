@@ -15,7 +15,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents = intents)
 
-cli = OpenAI(api_key = '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')
+cli = OpenAI(api_key = 'GPT_API_金鑰')
 
 # 調用event函式庫
 @client.event
@@ -46,4 +46,4 @@ async def on_message(message):
 
     
     
-client.run("MTE5MzU4NDM0NzA1NjQ1NTcyMQ.GTZVzz.C89fTcZZjxF6MB0RBAs9OkJp16faDnfOwWNNtA")
+client.run("Discord_API_金鑰")
