@@ -26,9 +26,9 @@ async def on_message(message):
     # message.content為Discord內的新訊息，為了與聊天內容區隔開頭需輸入/gpt
     if message.content[0:4] == "/gpt":
         response = cli.chat.completions.create(      
-            model      = "gpt-3.5-turbo",                                 #使用模型                                      
-            messages   = [{"role": "user", "content": message.content}],  #向GPT詢問內容
-            max_tokens = 1500)                                            #GPT回答token限制
+            model      = "gpt-3.5-turbo",                                 #使用的模型                                      
+            messages   = [{"role": "user", "content": message.content}],  #向GPT詢問的內容
+            max_tokens = 1500)                                            #GPT回答的token限制
         if response.choices:
             await message.channel.send(response.choices[0].message.content)
         else:
