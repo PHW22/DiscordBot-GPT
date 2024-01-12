@@ -2,7 +2,8 @@
 ## 介紹
 自行架設chatGPT功能的Discord機器人。
 ![image](https://github.com/PHW22/DiscordBot-GPT/assets/116903114/5e79ea32-1971-4cbf-bb21-7f44c893c3f7)
-這會使用到OpenAI的API功能，依照[tokens計費](https://openai.com/pricing#language-models)，與個人訂閱制無關。不同的付費層級可以使用不同的[模型](https://platform.openai.com/docs/guides/rate-limits?context=tier-free)。
+這會使用到OpenAI的API功能，依照[tokens計費](https://openai.com/pricing#language-models)，與個人訂閱制無關。  
+不同的付費層級可以使用不同的[模型](https://platform.openai.com/docs/guides/rate-limits?context=tier-free)。
 
 
 ## 步驟
